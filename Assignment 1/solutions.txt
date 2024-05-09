@@ -1,0 +1,288 @@
+Start City: brest, Goal City: nice
+Search Algorithm: bfs
+Path: Path: brest -> rennes -> paris -> dijon -> lyon -> avignon -> marseille -> nice
+Cost: 1782
+Nodes Explored: 55
+Nodes Expanded: 17
+Nodes Maintained: 2
+
+Start City: brest, Goal City: nice
+Search Algorithm: dls
+Path: Path: rennes -> nantes -> bordeaux -> toulouse -> limoges -> paris -> caen -> calais -> nancy -> dijon -> lyon -> avignon -> marseille -> nice
+Cost: 3721
+Nodes Explored: 51
+Nodes Expanded: 15
+Nodes Maintained: 21
+
+Start City: brest, Goal City: nice
+Search Algorithm: ucs
+Path: Path: brest -> rennes -> nantes -> bordeaux -> toulouse -> montpellier -> avignon -> marseille -> nice
+Cost: 1921
+Nodes Explored: 55
+Nodes Expanded: 17
+Nodes Maintained: 1
+
+Start City: brest, Goal City: nice
+Search Algorithm: astar
+Path: Path: brest -> rennes -> nantes -> bordeaux -> toulouse -> montpellier -> avignon -> marseille -> nice
+Cost: 1724
+Nodes Explored: 55
+Nodes Expanded: 17
+Nodes Maintained: 1
+
+Start City: montpellier, Goal City: calais
+Search Algorithm: bfs
+Path: Path: montpellier -> toulouse -> limoges -> paris -> calais
+Cost: 1521
+Nodes Explored: 49
+Nodes Expanded: 15
+Nodes Maintained: 16
+
+Start City: montpellier, Goal City: calais
+Search Algorithm: dls
+Path: Path: toulouse -> limoges -> paris -> caen -> calais
+Cost: 1775
+Nodes Explored: 30
+Nodes Expanded: 9
+Nodes Maintained: 13
+
+Start City: montpellier, Goal City: calais
+Search Algorithm: ucs
+Path: Path: montpellier -> avignon -> lyon -> dijon -> paris -> calais
+Cost: 1535
+Nodes Explored: 52
+Nodes Expanded: 16
+Nodes Maintained: 15
+
+Start City: montpellier, Goal City: calais
+Search Algorithm: astar
+Path: Path: montpellier -> avignon -> lyon -> dijon -> paris -> calais
+Cost: 1056
+Nodes Explored: 52
+Nodes Expanded: 16
+Nodes Maintained: 15
+
+Start City: strasbourg, Goal City: bordeaux
+Search Algorithm: bfs
+Path: Path: strasbourg -> dijon -> lyon -> limoges -> bordeaux
+Cost: 1406
+Nodes Explored: 48
+Nodes Expanded: 14
+Nodes Maintained: 17
+
+Start City: strasbourg, Goal City: bordeaux
+Search Algorithm: dls
+Path: Path: nancy -> calais -> caen -> rennes -> nantes -> bordeaux
+Cost: 1713
+Nodes Explored: 19
+Nodes Expanded: 6
+Nodes Maintained: 13
+
+Start City: strasbourg, Goal City: bordeaux
+Search Algorithm: ucs
+Path: Path: strasbourg -> nancy -> paris -> limoges -> bordeaux
+Cost: 1416
+Nodes Explored: 53
+Nodes Expanded: 17
+Nodes Maintained: 13
+
+Start City: strasbourg, Goal City: bordeaux
+Search Algorithm: astar
+Path: Path: strasbourg -> nancy -> paris -> limoges -> bordeaux
+Cost: 1195
+Nodes Explored: 53
+Nodes Expanded: 17
+Nodes Maintained: 13
+
+Start City: paris, Goal City: grenoble
+Search Algorithm: bfs
+Path: Path: paris -> dijon -> lyon -> grenoble
+Cost: 960
+Nodes Explored: 45
+Nodes Expanded: 13
+Nodes Maintained: 14
+
+Start City: paris, Goal City: grenoble
+Search Algorithm: dls
+Path: Path: caen -> rennes -> nantes -> bordeaux -> toulouse -> limoges -> lyon -> avignon -> grenoble
+Cost: 2279
+Nodes Explored: 53
+Nodes Expanded: 16
+Nodes Maintained: 16
+
+Start City: paris, Goal City: grenoble
+Search Algorithm: ucs
+Path: Path: paris -> dijon -> lyon -> grenoble
+Cost: 960
+Nodes Explored: 42
+Nodes Expanded: 12
+Nodes Maintained: 23
+
+Start City: paris, Goal City: grenoble
+Search Algorithm: astar
+Path: Path: paris -> dijon -> lyon -> grenoble
+Cost: 740
+Nodes Explored: 42
+Nodes Expanded: 12
+Nodes Maintained: 23
+
+Start City: grenoble, Goal City: paris
+Search Algorithm: bfs
+Path: Path: grenoble -> lyon -> limoges -> paris
+Cost: 1038
+Nodes Explored: 33
+Nodes Expanded: 11
+Nodes Maintained: 15
+
+Start City: grenoble, Goal City: paris
+Search Algorithm: dls
+Path: Path: lyon -> dijon -> nancy -> calais -> caen -> rennes -> nantes -> bordeaux -> toulouse -> limoges -> paris
+Cost: 3104
+Nodes Explored: 38
+Nodes Expanded: 11
+Nodes Maintained: 26
+
+Start City: grenoble, Goal City: paris
+Search Algorithm: ucs
+Path: Path: grenoble -> lyon -> dijon -> paris
+Cost: 960
+Nodes Explored: 31
+Nodes Expanded: 10
+Nodes Maintained: 15
+
+Start City: grenoble, Goal City: paris
+Search Algorithm: astar
+Path: Path: grenoble -> lyon -> dijon -> paris
+Cost: 665
+Nodes Explored: 31
+Nodes Expanded: 10
+Nodes Maintained: 15
+
+Start City: brest, Goal City: grenoble
+Search Algorithm: bfs
+Path: Path: brest -> rennes -> paris -> dijon -> lyon -> grenoble
+Cost: 1385
+Nodes Explored: 45
+Nodes Expanded: 13
+Nodes Maintained: 7
+
+Start City: brest, Goal City: grenoble
+Search Algorithm: dls
+Path: Path: rennes -> nantes -> bordeaux -> toulouse -> limoges -> paris -> caen -> calais -> nancy -> dijon -> lyon -> avignon -> grenoble
+Cost: 3544
+Nodes Explored: 52
+Nodes Expanded: 16
+Nodes Maintained: 20
+
+Start City: brest, Goal City: grenoble
+Search Algorithm: ucs
+Path: Path: brest -> rennes -> nantes -> limoges -> lyon -> grenoble
+Cost: 1488
+Nodes Explored: 47
+Nodes Expanded: 14
+Nodes Maintained: 14
+
+Start City: brest, Goal City: grenoble
+Search Algorithm: astar
+Path: Path: brest -> rennes -> nantes -> limoges -> lyon -> grenoble
+Cost: 1268
+Nodes Explored: 47
+Nodes Expanded: 14
+Nodes Maintained: 14
+
+Start City: grenoble, Goal City: brest
+Search Algorithm: bfs
+Path: Path: grenoble -> lyon -> limoges -> nantes -> rennes -> brest
+Cost: 1488
+Nodes Explored: 55
+Nodes Expanded: 17
+Nodes Maintained: 8
+
+Start City: grenoble, Goal City: brest
+Search Algorithm: dls
+Path: Path: lyon -> dijon -> nancy -> calais -> caen -> rennes -> brest
+Cost: 1859
+Nodes Explored: 53
+Nodes Expanded: 16
+Nodes Maintained: 17
+
+Start City: grenoble, Goal City: brest
+Search Algorithm: ucs
+Path: Path: grenoble -> lyon -> limoges -> nantes -> rennes -> brest
+Cost: 1488
+Nodes Explored: 55
+Nodes Expanded: 17
+Nodes Maintained: 6
+
+Start City: grenoble, Goal City: brest
+Search Algorithm: astar
+Path: Path: grenoble -> lyon -> limoges -> nantes -> rennes -> brest
+Cost: 1246
+Nodes Explored: 55
+Nodes Expanded: 17
+Nodes Maintained: 6
+
+Start City: nice, Goal City: nantes
+Search Algorithm: bfs
+Path: Path: nice -> marseille -> avignon -> lyon -> limoges -> nantes
+Cost: 1460
+Nodes Explored: 30
+Nodes Expanded: 10
+Nodes Maintained: 9
+
+Start City: nice, Goal City: nantes
+Search Algorithm: dls
+Path: Path: marseille -> avignon -> lyon -> dijon -> nancy -> calais -> caen -> rennes -> nantes
+Cost: 2357
+Nodes Explored: 29
+Nodes Expanded: 9
+Nodes Maintained: 21
+
+Start City: nice, Goal City: nantes
+Search Algorithm: ucs
+Path: Path: nice -> marseille -> avignon -> montpellier -> toulouse -> bordeaux -> nantes
+Cost: 1496
+Nodes Explored: 42
+Nodes Expanded: 13
+Nodes Maintained: 13
+
+Start City: nice, Goal City: nantes
+Search Algorithm: astar
+Path: Path: nice -> marseille -> avignon -> montpellier -> toulouse -> bordeaux -> nantes
+Cost: 1176
+Nodes Explored: 42
+Nodes Expanded: 13
+Nodes Maintained: 13
+
+Start City: caen, Goal City: strasbourg
+Search Algorithm: bfs
+Path: Path: caen -> calais -> nancy -> strasbourg
+Cost: 1320
+Nodes Explored: 33
+Nodes Expanded: 9
+Nodes Maintained: 17
+
+Start City: caen, Goal City: strasbourg
+Search Algorithm: dls
+Path: Path: rennes -> nantes -> bordeaux -> toulouse -> limoges -> paris -> dijon -> nancy -> strasbourg
+Cost: 2492
+Nodes Explored: 38
+Nodes Expanded: 10
+Nodes Maintained: 19
+
+Start City: caen, Goal City: strasbourg
+Search Algorithm: ucs
+Path: Path: caen -> paris -> nancy -> strasbourg
+Cost: 1136
+Nodes Explored: 36
+Nodes Expanded: 10
+Nodes Maintained: 17
+
+Start City: caen, Goal City: strasbourg
+Search Algorithm: astar
+Path: Path: caen -> paris -> nancy -> strasbourg
+Cost: 805
+Nodes Explored: 36
+Nodes Expanded: 10
+Nodes Maintained: 17
+
